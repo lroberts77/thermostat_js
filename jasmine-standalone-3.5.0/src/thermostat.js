@@ -12,6 +12,9 @@ class Thermostat{
   }
 
   increase() {
+    if (this.isMAXTEMP()) {
+      return;
+    }
     this.temperature += 1
   }
 
