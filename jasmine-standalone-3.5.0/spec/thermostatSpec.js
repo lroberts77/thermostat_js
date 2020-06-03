@@ -34,7 +34,7 @@ describe('Thermostat', function() {
     });
 
     it('can turn off PSM off', function() {
-      thermostat.PSMoff();
-      expect(thermostat.isPSMoff()).toBe(false);
+      thermostat.turnPSMoff();
+      expect(thermostat.isPSMon()).toBe(false);
     });
   });

@@ -4,7 +4,7 @@ class Thermostat{
   constructor() {
     this.MINIMUM_TEMPERATURE = 10;
     this.temperature = 20;
-    this.PSMon = true;
+    this.PSM = true;
   }
 
   getCurrentTemp() {
@@ -27,6 +27,10 @@ class Thermostat{
   }
 
   isPSMon() {
-    return this.PSMon === true;
+    return this.PSM === true;
+  }
+
+  turnPSMoff() {
+    this.PSM = false;
   }
 }
