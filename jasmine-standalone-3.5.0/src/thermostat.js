@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 class Thermostat{
   constructor() {
@@ -8,7 +8,6 @@ class Thermostat{
     this.MAXTEMP_PSM_OFF = 32;
     this.MEDIUM_ENERGY_USAGE_LIMIT = 18;
     this.MINIMUM_TEMPERATURE = 10;
-    this.temperature = 20;
     this.PSM = true;
   }
 
