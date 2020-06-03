@@ -25,4 +25,8 @@ class Thermostat{
   isMinimumTemp() {
     return this.temperature === this.MINIMUM_TEMPERATURE;
   }
+
+  isPSMon() {
+    return this.PSMon === true;
+  }
 }
