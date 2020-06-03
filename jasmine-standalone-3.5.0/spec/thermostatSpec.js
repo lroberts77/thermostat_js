@@ -8,7 +8,7 @@ describe('Thermostat', function() {
     thermostat = new Thermostat();
   });
 
-    it('starts st 20 degrees', function() {
+    it('starts st 20°', function() {
       expect(thermostat.getCurrentTemp()).toEqual(20);
     });
 

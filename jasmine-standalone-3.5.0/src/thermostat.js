@@ -2,6 +2,7 @@
 
 class Thermostat{
   constructor() {
+    this.MINIMUM_TEMPERATURE = 10;
     this.temperature = 20;
   }
 
@@ -14,6 +15,13 @@ class Thermostat{
   }
 
   decrease() {
+    if (this.isMinimumTemp()) {
+      return;
+    }
     this.temperature -= 1
+  }
+
+  isMinimumTemp() {
+    return this.temperature === this.MINIMUM_TEMPERATURE;
   }
 }
