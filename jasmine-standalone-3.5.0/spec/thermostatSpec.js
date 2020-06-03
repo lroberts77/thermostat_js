@@ -42,25 +42,33 @@ describe('Thermostat', function() {
       thermostat.turnPSMoff();
       expect(thermostat.isPSMon()).toBe(false);
       thermostat.turnPSMon();
-      expect(thermostat.isPSMon()).toBe(true)
-    })
+      expect(thermostat.isPSMon()).toBe(true);
+    });
+
+    it('can be reset to the default temperature', function() {
+      for (var i = 0; i < 6; i++) {
+        thermostat.increase();
+      };
+      thermostat.resetTemp();
+      expect(thermostat.getCurrentTemp()).toEqual(20);
+    });
 
     describe('when PSM is on', function() {
       it('has a maximum temperature of 25°', function() {
         for (var i = 0; i < 6; i++) {
           thermostat.increase();
-        }
+        };
         expect(thermostat.getCurrentTemp()).toEqual(25);
-      })
-    })
+      });
+    });
 
     describe('when PSM is off', function() {
       it('has a maximum temperature of 32°', function() {
         thermostat.turnPSMoff();
         for (var i = 0; i < 13; i++) {
           thermostat.increase();
-        }
+        };
         expect(thermostat.getCurrentTemp()).toEqual(32)
-      })
-    })
+      });
+    });
   });
