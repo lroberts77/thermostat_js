@@ -53,4 +53,14 @@ describe('Thermostat', function() {
         expect(thermostat.getCurrentTemp()).toEqual(25);
       })
     })
+
+    describe('when PSM is off', function() {
+      it('has a maximum temperature of 32°', function() {
+        thermostat.turnPSMoff();
+        for (var i = 0; i < 13; i++) {
+          thermostat.increase();
+        }
+        expect(thermostat.getCurrentTemp()).toEqual(32)
+      })
+    })
   });
