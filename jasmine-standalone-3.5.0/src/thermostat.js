@@ -4,6 +4,7 @@ class Thermostat{
   constructor() {
     this.MINIMUM_TEMPERATURE = 10;
     this.temperature = 20;
+    this.PSMon = true;
   }
 
   getCurrentTemp() {
