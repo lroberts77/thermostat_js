@@ -2,6 +2,8 @@
 
 class Thermostat{
   constructor() {
+    this.MAXTEMP_PSM_ON = 25;
+    this.MAXTEMP_PSM_OFF = 32;
     this.MINIMUM_TEMPERATURE = 10;
     this.temperature = 20;
     this.PSM = true;
@@ -39,5 +41,12 @@ class Thermostat{
 
   turnPSMon() {
     this.PSM = true
+  }
+
+  isMAXTEMP() {
+    if (this.isPSMon() === false) {
+      return this.temperature === this.MAXTEMP_PSM_OFF;
+    }
+    return this.temperature === this.MAXTEMP_PSM_ON;
   }
 }
