@@ -37,4 +37,11 @@ describe('Thermostat', function() {
       thermostat.turnPSMoff();
       expect(thermostat.isPSMon()).toBe(false);
     });
+
+    it('can turn PSM back on', function() {
+      thermostat.turnPSMoff();
+      expect(thermostat.isPSMon()).toBe(false);
+      thermostat.turnPSMon();
+      expect(thermostat.isPSMon()).toBe(true)
+    })
   });
