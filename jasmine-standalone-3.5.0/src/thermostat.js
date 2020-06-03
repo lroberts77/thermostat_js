@@ -33,4 +33,8 @@ class Thermostat{
   turnPSMoff() {
     this.PSM = false;
   }
+
+  turnPSMon() {
+    this.PSM = true
+  }
 }
