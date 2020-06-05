@@ -1,3 +1,11 @@
+body {
+  
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, white 60%, black 40%);
+}
+
+
 .low-usage {
     color: green;
   }
@@ -9,3 +17,4 @@
   .high-usage {
     color: red;
   }
+
