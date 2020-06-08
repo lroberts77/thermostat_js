@@ -1,7 +1,7 @@
 body {
   position: relative;
-  /* padding: 0;
-  margin: 0;     */
+  padding: 10px;
+  margin: 10px;    
   background: linear-gradient(90deg, white 60%, black 40%);
 }
 
@@ -9,13 +9,13 @@ body {
   color: green;
   }
   
-  .medium-usage {
-  color: black;
-  }
-  
-  .high-usage {
-  color: red;
-  }
+.medium-usage {
+color: black;
+}
+
+.high-usage {
+color: red;
+}
 
 .vert-degrees {
   color: #ffffff;
@@ -27,4 +27,26 @@ body {
   transform: rotate(90deg);
   font-family: sans-serif;
   font-size: 180px;
+}
+
+.cur-form {
+  margin-left: 10vw;
+}
+.city {
+  border: none;
+  font-family: 'palantino';
+  font-size: 30px;
+}
+#current-city {
+  padding-left: 4vw;
+  font-size: 30px;
+}
+#country {
+  font-size: 30px;
+}
+.cur-temp {
+padding-left: 3rem;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+color: blue;
 }
