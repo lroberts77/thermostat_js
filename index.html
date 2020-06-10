@@ -9,6 +9,8 @@
 <body>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Palantino">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Phosphate">
     <script
     src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -17,20 +19,24 @@
         <form class="cur-form" id="select-city">
             <input class="city" type="text" placeholder="Enter city name:" id="current-cityy"></input>
             <input type="submit"></input>
-            <span id="current-city"></span>, <span id="country"></span> <span class="cur-temp" id="current-temp">°</span>
+            <span id="current-city"></span>, <span id="country"></span><span class="cur-temp" id="current-temp"></span><span id="degree">°</span>
         </form>
-        <div>
+        <div class="top-linered">
         </div>
-        <div>
+        <div class="top-lineblack">
         </div>
 
     </p>
-        <h1>Thermostat temperature: <span id="temperature"></span>°</h1>
+        <h1 id="temp-title">Thermostat temp: <span id="temperature"></span><span id="degree2">°</span></h1>
         <p>
             <button id="temp-up">+</button>
             <button id="temp-down">-</button>
             <button id="temp-reset">reset</button>
-            power saving mode is <span id="psm-status">on</span>
+            <div class="top-linered2">
+            </div>
+            <div class="top-lineblack2">
+            </div>
+            <h3 id="PSM">power saving mode</h3> <span id="psm-status">on</span>
             <button id="PSM-on">PSM on</button>
             <button id="PSM-off"> PSM off</button>
         </p>
