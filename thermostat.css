@@ -6,7 +6,9 @@ body {
 }
 
 .low-usage {
-  color: green;
+  background: linear-gradient(rgb(181, 217, 252), rgb(115, 187, 255), rgb(84, 143, 252), blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
 .medium-usage {
@@ -14,7 +16,9 @@ color: black;
 }
 
 .high-usage {
-color: red;
+  background: linear-gradient( yellow,  orange , red );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vert-degrees {
@@ -58,14 +62,12 @@ color: red;
 #degree {
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
-  color: blue;
 }
 .cur-temp {
 position: relative;
 padding-left: 3rem;
 font-size: 40px;
 font-family: 'Times New Roman', Times, serif;
-color: blue;
 }
 
 .top-linered {
@@ -125,6 +127,18 @@ color: blue;
 #temp-up {
   margin-left: 38vw;
 }
+#temp-up:hover, #temp-down:hover {
+    font-style: bold;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+}
+#temp-reset:hover {
+  font-style: bold;
+  font-size: 35px;
+  background-color: aqua;
+  color: white;
+}
 
 .top-linered2 {
   margin-top: 6vh;
@@ -176,9 +190,28 @@ color: blue;
 #PSM-status {
   font-size: 60px;
 }
+#PSM-off:hover {
+  background: linear-gradient(rgb(181, 217, 252), rgb(115, 187, 255), rgb(84, 143, 252), blue);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(60, 60, 60);
+}
+
+#PSM-on:hover {
+  background: linear-gradient( yellow,  orange , red );
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(60, 60, 60);
+}
 
 footer {
   width: 60%;
   text-align: center;
   margin-top: 17vh;
+  outline-width: 2rem;
+}
+
+footer:hover {
+color: red;
+
 }
