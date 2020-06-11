@@ -25,7 +25,7 @@ color: red;
   /* height: 100%; */
   /* width: 40%; */
   text-align: center;
-  margin-top: -18vh;
+  margin-top: -40vh;
   /* right: 12vw; */
   transform: rotate(90deg);
   font-family: sans-serif;
@@ -35,16 +35,20 @@ color: red;
 .cur-form {
   margin-top: 4vh;
   flex-direction: row;
+  background-color: white;
   width: 60%;
   text-align: center;
 }
 .city {
   border: none;
+  background-color: white;
   font-family: 'palantino', 'Times New Roman', Times, serif;
   font-size: 30px;
 }
+
 #current-city {
   padding-left: 4vw;
+  background-color: white;
   font-size: 30px;
 }
 #country {
@@ -67,7 +71,7 @@ color: blue;
 .top-linered {
   margin-top: 6vh;
   flex-direction: row;
-  width: 58%;
+  width: 59%;
   align-self: center;
   height: 40px;
   background-color: red;
@@ -76,7 +80,7 @@ color: blue;
 .top-lineblack {
   margin-top: 4vh;
   flex-direction: row;
-  width: 58%;
+  width: 59%;
   align-self: center;
   height: 15px;
   background-color: black;
@@ -152,4 +156,29 @@ color: blue;
   color: white;
   font-weight: lighter;
   -webkit-text-stroke: 1.2px black;
+}
+
+#PSM-on, #PSM-off {
+  border: none;
+  background-color: white;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(0,0,0,1);
+  margin-left: 42vw;
+}
+#PSM-off {
+  margin-left: 5vw;
+}
+#PSM-status {
+  font-size: 60px;
+}
+
+footer {
+  width: 60%;
+  text-align: center;
+  margin-top: 17vh;
 }

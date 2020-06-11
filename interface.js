@@ -19,13 +19,13 @@ $(document).ready(function() {
 
     $('#PSM-on').click(function() {
         thermostat.turnPSMon();
-        $('#PSM').text('on')
+        $('#PSM').text('PSM on')
         updateTemperature();
     })
 
     $('#PSM-off').click(function() {
         thermostat.turnPSMoff();
-        $('#PSM').text('off')
+        $('#PSM').text('PSM off')
         updateTemperature();
     })
 
