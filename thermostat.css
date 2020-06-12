@@ -229,9 +229,10 @@ body {
 }
 
 footer {
+  position: fixed;
   width: 60%;
   text-align: center;
-  margin-top: 17vh;
+  bottom: 0;
   outline-width: 2rem;
 }
 
