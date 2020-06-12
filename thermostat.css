@@ -39,24 +39,33 @@ color: black;
 .cur-form {
   margin-top: 4vh;
   flex-direction: row;
-  background-color: white;
+  background-color: transparent;
   width: 60%;
   text-align: center;
 }
 .city {
   border: none;
-  background-color: white;
+  background-color: transparent;
   font-family: 'palantino', 'Times New Roman', Times, serif;
   font-size: 30px;
+  width: 30%;
+  
 }
 
 #current-city {
   padding-left: 4vw;
-  background-color: white;
+  background-color: transparent;
   font-size: 30px;
 }
 #country {
   font-size: 30px;
+}
+
+#submit {
+  background-color: transparent;
+  font-size: 25px;
+  border-color: red;
+  outline: none;
 }
 
 #degree {
