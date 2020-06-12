@@ -123,21 +123,29 @@ font-family: 'Times New Roman', Times, serif;
   display: inline;
   /* flex-direction: row; */
   text-align: center;
+  border: none;
+  outline: none;
 }
 #temp-up {
   margin-left: 38vw;
+  border: none;
+  outline: none;
 }
 #temp-up:hover, #temp-down:hover {
     font-style: bold;
     font-size: 35px;
     background-color: black;
     color: white;
+    border: none;
+    outline: none;
 }
 #temp-reset:hover {
   font-style: bold;
   font-size: 35px;
   background-color: aqua;
   color: white;
+  border: none;
+  outline: none;
 }
 
 .top-linered2 {
@@ -183,9 +191,13 @@ font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   color: rgba(0,0,0,1);
   margin-left: 42vw;
+  border: none;
+  outline: none;
 }
 #PSM-off {
   margin-left: 5vw;
+  border: none;
+  outline: none;
 }
 #PSM-status {
   font-size: 60px;
@@ -195,6 +207,8 @@ font-family: 'Times New Roman', Times, serif;
   color: white;
   border-radius: 5px;
   box-shadow: 2px 2px rgb(60, 60, 60);
+  border: none;
+  outline: none;
 }
 
 #PSM-on:hover {
@@ -202,6 +216,8 @@ font-family: 'Times New Roman', Times, serif;
   color: white;
   border-radius: 5px;
   box-shadow: 2px 2px rgb(60, 60, 60);
+  border: none;
+  outline: none;
 }
 
 footer {
@@ -213,5 +229,5 @@ footer {
 
 footer:hover {
 color: red;
-
 }
+
