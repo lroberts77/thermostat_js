@@ -22,8 +22,7 @@ You can ask about the thermostat's current energy usage: < 18 is low-usage, < 25
 (In the challenges where we add an interface, low-usage will be indicated with green, medium-usage indicated with black, high-usage indicated with red.)
 
 ## <a name="Project">Project Direction</a>
-I used TDD to 
-I started this project by writing tests to see if the code executed everything on the requirements specification. All the tests passed therefore I knew that the code was working. Because of all the if and else statements I couldn't follow the code logic, so I began rewriting the code. I separated the items into if statements and put the value adjustments into ternary operators. By doing this I distilled the code and made it easier to read by item and behaviour.
+I used TDD to cover all the points in the specification and with all the tests passing I knew the code was working. Next I structured all the basic HTML to output all the necessary points from the specification and then I created interface.js which made the thermostat come to life. This connected all the logic to event handlers for the HTML buttons, inputs and submits. After everything was working correctly I began to experiment with styling and created something clean and simple.
 
 
 ## <a name="Install">Installation</a>
