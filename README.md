@@ -32,7 +32,7 @@ $ git clone git@github.com:lroberts77/thermostat_js.git
 $ cd thermostat_js
 ```
 
-## <a name="Rspec">Rspec Tests</a>
+## <a name="Rspec">Jasmine Tests</a>
 * Copy the file path of SpecRunner.html in the jasmine-standalone-3.5.0 folder and paste it into your internet URL bar and press return. This will show all the tests in Jasmine that I have created to build the thermostat and their passing or failing status.
 
 ## <a name="Usage">Usage</a>
