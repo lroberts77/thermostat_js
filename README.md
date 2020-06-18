@@ -33,9 +33,10 @@ $ cd thermostat_js
 ```
 
 ## <a name="Rspec">Jasmine Tests</a>
-Copy the file path of SpecRunner.html in the jasmine-standalone-3.5.0 folder and paste it into your internet URL bar and press return. This will show all the tests in Jasmine that I have created to build the thermostat and their passing or failing status.
+After cloning the repo, copy the file path of SpecRunner.html in the jasmine-standalone-3.5.0 folder and paste it into your internet URL bar and press return. This will show all the tests in Jasmine that I have created to build the thermostat and their passing or failing status.
 
 ## <a name="Usage">Usage</a>
+After cloning the repo, copy the file path of index.html and paste it into your internet URL bar and press return.\s\s\
 
 The thermostat has two distinct parts to it,
 1. The first part uses Openweather API to get JSON information about the current weather. I have split the API call function to accept a parameter of city from the input box which gets inserted into the API call to specify the city to get information for. From the JSON response I have pulled the city name, temperature and country which I display on the page in the same row as the city input box.
