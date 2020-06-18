@@ -4,7 +4,7 @@
 ## Index
 * [Project Direction](#Project)
 * [Installation](#Install)
-* [Rspec Tests](#Rspec)
+* [Jasmine Tests](#Rspec)
 * [Usage](#Usage)
 
 
