@@ -33,12 +33,12 @@ $ cd thermostat_js
 ```
 
 ## <a name="Rspec">Rspec Tests</a>
-* Copy the file path of SpecRunner.html in the jasmine-standalone-3.5.0 folder and paste it into your internet URl bar and press return. This will show all the tests in Jasmine that I have created to build the thermostat and their passing or failing status.
+* Copy the file path of SpecRunner.html in the jasmine-standalone-3.5.0 folder and paste it into your internet URL bar and press return. This will show all the tests in Jasmine that I have created to build the thermostat and their passing or failing status.
 
 ## <a name="Usage">Usage</a>
 
-The thermostat is has two distinct parts to it,
-1. The first part uses Openweather API to get JSON information about the current weather. I have split the API call function to accept a parameter of city which gets inserted into the API call to specify the city to get information for. From the JSON response I have pulled the city name, temperature and country which I display on the page in the same row as the city input box.
+The thermostat has two distinct parts to it,
+1. The first part uses Openweather API to get JSON information about the current weather. I have split the API call function to accept a parameter of city from the input box which gets inserted into the API call to specify the city to get information for. From the JSON response I have pulled the city name, temperature and country which I display on the page in the same row as the city input box.
 
 2. The second part is a Javascript async thermostat that covers the afore mentioned specification. thermostat.js handles all the base logic while interface.js encompasses the API handling and event handling.
 
